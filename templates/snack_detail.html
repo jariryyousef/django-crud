@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<center><h3>Snacks details</h3></center>
+<hr>
+
+<p>Snack title: {{ snack.title }} </p>
+<p>Snack description: {{ snack.description }}</p>
+<p>{{snack.purchaser}}</p>
+{% endblock %}
