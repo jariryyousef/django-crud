@@ -1,0 +1,1 @@
+https://github.com/jariryyousef/django-crud/pull/1

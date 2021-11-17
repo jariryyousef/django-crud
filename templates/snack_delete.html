@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center><h3> Delete Snack</h3></center>
+<hr>
+
+<form method="post" action="">
+    {% csrf_token %}
+
+
+    <p>Delete {{ snack }} from list ?</p>
+<input type="submit" value="Delete">
+
+</form>
+
+{% endblock %}
